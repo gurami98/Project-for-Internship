@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> WEB PAGE </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">	
+	<link rel="stylesheet" href="css/swiper.min.css">	
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+ 
+  	  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+ 
+
+
+</head>
+<body>
+	<header>
+		<div class="topnav">
+			<img src="Images/MenuIcon.png" class="bar-icon">
+			<div class="verticalLine"></div>
+			<img src="Images/Portland.png" class="mainLogo">
+			<div class="mainMenuContainer">				
+				<ul class="mainMenu">
+					<li>
+						<a href="">Home</a>
+					</li>
+
+					<li>
+						<a href="">Devices</a>
+					</li>
+
+					<li>
+						<a href="">Delivery & Payment</a>
+					</li>
+
+					<li>
+						<a href="">Guarantee</a>
+					</li>
+
+					<li>
+						<a href="">About Us</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="shoppingCart">
+				<img src="Images/ShoppingCart.png" class="shoppingCartLogo">
+				<p class="shoppingCartText"> CART </p>
+					<input class="shoppingCartInput" type="text" name="zero" value="0">
+			</div>
+
+			<div class="signIn">
+				<button class="signInButton"> SIGN IN </button>
+			</div>
+		</div>
+
+		<hr class="topnavSplitter">
+
+		<div class="topnav2">
+			<div class="menuContainer">
+				<ul class="menu">
+					<li>
+						<a href=""> TOP SALES </a>
+					</li>
+
+					<li>
+						<a href=""> BRAND FOCUS </a>
+						
+					</li>
+
+					<li >
+						<a href="">	HI-TECH</a>
+					</li>
+
+					<li>
+						<a href=""> BEST-SELLERS </a>
+					</li>
+
+					<li>
+						<a href=""> PROJECTS </a>
+					</li>
+
+					<li id="supportText">
+						<a href=""> SUPPORT </a>
+					</li>
+				</ul>
+
+				<div class="verticalLine2"></div>
+
+				<div class="searchContainer">
+					<img src="Images/SearchIcon.png" class="searchIconLogo">
+					<input class="searchInput" type="text" name="search" placeholder="I'm looking for...">
+				</div>
+			</div>
+		</div>
+		
+		<div class="sliderMainContainer">
+		<div class="sliderContainer">
+		<!-- Slider main container -->
+		<div class="swiper-container">
+		    <!-- Additional required wrapper -->
+		    <div class="swiper-wrapper">
+		        <!-- Slides -->
+		        <div class="swiper-slide"> 
+		        	<p class="sliderTextTitle"> iPhone 6 32Gb <br> Black </p> 
+		        	<p class="sliderText"> At first, for some time, I was not able to answer him one word; <br> had taken me in his arms I held fast by him, or I should have <br> fallen to the ground. </p> 
+		        	<button class="buyNowButton"> BUY NOW </button>
+		        	<img src="Images/sliderPhoto.png">
+		        </div>
+		        <div class="swiper-slide"><img src="Images/sliderPhoto.png"></div>
+		        <div class="swiper-slide"><img src="Images/sliderPhoto.png"></div>
+		        <div class="swiper-slide"><img src="Images/sliderPhoto.png"></div>
+		        
+		    </div>
+		    <!-- If we need pagination -->
+		    <div class="swiper-pagination"></div>
+
+		    <!-- If we need navigation buttons -->
+		    <div class="swiper-button-prev"></div>
+		    <div class="swiper-button-next"></div>
+
+		    <!-- If we need scrollbar -->
+		    <div class="swiper-scrollbar"></div>
+		</div>
+		</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="productFilter">
+			<ul>
+				<li style="color: #a1a8bd; margin-left: 30px;" >
+					SORT BY:
+				</li>
+
+				<li style="color: #343e5c; margin-left: 50px;">
+					<a href=""> BEST MATCH <i class="down"> </i> </a>
+				</li>
+			</ul>
+
+			<div class="verticalLine3"></div>
+
+			<label class="keywords"> KEYWORDS </label>
+			<div class="keywordInputContainer"> 
+				<input class="keywordInput" type="text" name="Tablet" 	placeholder="Tablet">
+			</div>	
+			<label class="price"> PRICE </label>
+			<div class="priceInputContainer"> 
+				<input class="priceInput" type="text" name="firstnum" placeholder="10">
+			</div>
+			<label class="minus"> - </label>
+			<div class="priceInputContainer">
+				<input class="priceInput" type="text" name="secondnum" placeholder="1000">
+			</div>
+			<label class="container">
+	          <input type="checkbox" checked="checked">
+	          <span class="checkmark"></span>
+	        </label>
+
+	        <label class="freeShipping"> Free Shipping</label>
+
+	        <div class="verticalLine4"></div>
+
+	        <ul>
+				<li style="color: #a1a8bd; margin-left: 30px;" >
+					SHIP TO:
+				</li>
+
+				<li style="color: #343e5c; margin-left: 40px;">
+					<a href=""> USA <i class="down"> </i> </a>
+				</li>
+			</ul>
+	 	</div>
+
+	 <!-- 	main content -->
+
+		<div class="mainContent">
+			<div class="col1">
+				<div class="sideMenuContainer">
+			 		<ul class="sideMenu" class="collapseAccordion" id="accordion">
+			 			<li>
+			 			 	<a class="collapseAccordion"> Top Sales <i class="right"> </i> </a>
+			 			 	<ul class="subMenu">
+			 			 		<li class="subMenuItem"><a href="#">Product Name</a></li>
+							    <li class="subMenuItem"><a href="#">Product Name</a></li>
+							    <li class="subMenuItem"><a href="#">Product Name</a></li>
+							    <li class="subMenuItem"><a href="#">Product Name</a></li>
+			 			 	</ul>
+			 			</li>
+
+			 			<li>
+			 				<a class="collapseAccordion"> Brand Focus <i class="right"> </i> </a>
+			 				<ul class="subMenu">
+			 			 		<li class="subMenuItem"><a href="#">Product Name</a></li>
+							    <li class="subMenuItem"><a href="#">Product Name</a></li>
+							    <li class="subMenuItem"><a href="#">Product Name</a></li>
+							    <li class="subMenuItem"><a href="#">Product Name</a></li>
+			 			 	</ul>
+			 			</li>
+
+			 			<li>
+			 				<a class="collapseAccordion"> Hi-Tech <i class="right"> </i> </a>
+			 				<ul class="subMenu">
+			 			 		<li class="subMenuItem"><a href="#">Product Name</a></li>
+							    <li class="subMenuItem"><a href="#">Product Name</a></li>
+							    <li class="subMenuItem"><a href="#">Product Name</a></li>
+							    <li class="subMenuItem"><a href="#">Product Name</a></li>
+			 			 	</ul>
+			 			</li> 
+
+			 			<li>
+			 				<a class="collapseAccordion"> Home <i class="right"> </i> </a>
+			 				<ul class="subMenu">
+			 			 		<li class="subMenuItem"><a href="#">Product Name</a></li>
+							    <li class="subMenuItem"><a href="#">Product Name</a></li>
+							    <li class="subMenuItem"><a href="#">Product Name</a></li>
+							    <li class="subMenuItem"><a href="#">Product Name</a></li>
+			 			 	</ul>
+			 			</li>
+
+			 			<li>
+			 				<a class="collapseAccordion"> Sale <i class="right"> </i> </a>
+			 				<ul class="subMenu">
+			 			 		<li class="subMenuItem"><a href="#">Product Name</a></li>
+							    <li class="subMenuItem"><a href="#">Product Name</a></li>
+							    <li class="subMenuItem"><a href="#">Product Name</a></li>
+							    <li class="subMenuItem"><a href="#">Product Name</a></li>
+			 			 	</ul>
+			 			</li>
+			 		</ul>
+			 	</div>
+				
+				<div class="avialableFilter">
+		 		<p class="avialableText"> AVAILABLE </p>
+		 		<div class="horizontalLine"></div>
+		 		<label class="container2">
+         			<input type="radio" name="radio" checked="checked">
+          			<span class="checkmark2"></span>
+       			</label>
+
+       			<label class="inStorage"> In Storage  </label>
+       			<p class="productCount">45</p>
+
+       			<label class="container3">
+         			<input type="radio" name="radio" >
+          			<span class="checkmark3"></span>
+       			</label>
+
+       			<label class="inOnlineShop"> In Online-Shop </label>
+       			<p class="productCount">12</p>
+       			<div class="horizontalLine" style="margin-top: 100px;"></div>
+
+       			<p class="brandText"> BRANDS </p>
+       			<p class="everyBrand"> <a href=""> ALL </a> </p>
+       			<div class="horizontalLine"></div>
+				
+				<div class="brandNames">
+	       			<label class="container4">
+	  					<input type="checkbox" checked="checked">
+	  					<span class="checkmark4"></span>
+					</label>
+
+					<label class="brandName"> Apple </label>
+					<p class="brandCount">32</p> <br>
+
+					<label class="container4">
+					  <input type="checkbox">
+					  <span class="checkmark4"></span>
+					</label>
+
+					<label class="brandName"> JBL </label>
+					<p class="brandCount">14</p> <br>
+
+					<label class="container4">
+					  <input type="checkbox">
+					  <span class="checkmark4"></span>
+					</label>
+
+					<label class="brandName"> Bose </label>
+					<p class="brandCount">3</p> <br>
+
+					<label class="container4">
+					  <input type="checkbox">
+					  <span class="checkmark4"></span>
+					</label>
+
+					<label class="brandName"> Nest </label>
+					<p class="brandCount">5</p>  <br>
+				</div>
+		 	</div>
+
+		 	<div class="conditionFilter">
+		 		<p class="brandText"> CONDITION </p>
+       			<p class="everyBrand"> <a href=""> SEE ALL </a> </p>
+       			<div class="horizontalLine"></div>
+       			<div class="conditionNames">
+	       			<label class="container4">
+	  					<input type="checkbox" checked="checked" >
+	  					<span class="checkmark4"></span>
+					</label>
+
+					<label class="brandName"> New </label> <br>
+
+					<label class="container4">
+					  <input type="checkbox">
+					  <span class="checkmark4"></span>
+					</label>
+
+					<label class="brandName"> Manufacturer Refubrished </label> <br>
+
+					<label class="container4">
+					  <input type="checkbox">
+					  <span class="checkmark4"></span>
+					</label>
+
+					<label class="brandName"> Seller Refubrished </label> <br>
+
+					<label class="container4">
+					  <input type="checkbox">
+					  <span class="checkmark4"></span>
+					</label>
+
+					<label class="brandName"> Used </label> <br>
+
+					<label class="container4">
+					  <input type="checkbox">
+					  <span class="checkmark4"></span>
+					</label>
+
+					<label class="brandName"> For Parts or not Working </label> <br>
+				</div>
+		 	</div>
+
+		 	<div class="deliveryOptions">
+		 		<p class="brandText"> DELIVERY OPTIONS </p>
+		 		<div class="horizontalLine"></div>
+		 		<label class="container5">
+         			<input type="radio" name="radio2" checked="checked">
+          			<span class="checkmark5"></span>
+       			</label>
+
+       			<label class="freeDelivery"> FREE </label>
+
+       			<label class="container6">
+         			<input type="radio" name="radio2" >
+          			<span class="checkmark6"></span>
+       			</label>
+
+       			<label class="fiveBuckDelivery"> $4.99 </label>
+		 	</div>
+
+			</div>
+
+			<div class="col2">
+				<div class="product1">
+			 		<img src="Images/Photo1.png"  width="100%" class="img1">
+			 		<p class="productHeadline" id="txt1"> <b>APPLE TV 32GB</b> </p>
+			 		<p class="productColor"> BLACK </p>
+			 		<p class="productPrice"> $49.99 </p>		 		
+		 		</div>
+		 		<div class="product1">
+			 		<img src="Images/Photo2.png" width="100%" class="img2">
+			 		<p class="productHeadline" id="txt2"> <b>Pebble Time</b> </p>
+			 		<p class="productColor"> RED </p>
+			 		<p class="productPrice"> $49.99 </p>		 		
+		 		</div>
+
+		 		<div class="product1">
+			 		<img src="Images/Photo3.png" width="100%" class="img3">
+			 		<p class="productHeadline" id="txt3"> <b>Zendure 4-Port USB</b> </p>
+			 		<p class="productColor"> WHITE </p>
+			 		<p class="productPrice"> $49.99 </p>		 		
+		 		</div>
+
+		 		<div class="product2">
+			 		<img src="Images/Photo4.png" class="photo4">
+			 		<p class="productHeadline" style="margin-top: 30px;"> <b>Withings Smart Body Analyzer ws-50</b> </p>
+			 		<p class="productColor"> BLACK </p>
+			 		<p class="productPrice"> $39.99 </p>		 		
+		 		</div>
+
+		 		<div class="product3">
+			 		<img src="Images/Photo5.png" class="photo5">
+			 		<p class="photo5Price"> $39.99 </p>
+			 		<div class="txtContainer">
+				 		<p class="photo5Headline"> <b>JBL Charge 2+</b> </p>
+				 		<p class="photo5Color"> BLACK </p>
+				 		<div class="buyNowContainer">
+				 			<p class="capacityCount"> 16 GB </p>
+							<div class="verticalLine" style="height: 30px;"></div>
+				 			<p class="buyNow"> <a href=""> BUY NOW </a> </p>
+				 		</div>		
+				 	</div> 		
+		 		</div>
+
+		 		<div class="product1" style="margin-top: 30px; margin-left: 0;">
+			 		<img src="Images/Photo6.png" width="100%" class="img6">
+			 		<p class="productHeadline" id="txt6" style="padding-bottom: 20px;"> <b>Ollo Clip New</b> </p>
+			 		<p class="productColor"> SILVER </p>
+			 		<p class="productPrice"> $19.99 </p>		 		
+		 		</div>
+
+		 		<div class="product1" style="margin-top: 30px;">
+			 		<img src="Images/Photo7.png" width="100%" class="img7">
+			 		<p class="productHeadline" id="txt7"> <b>Fitbit Charge HR Heart Rate and Activity Tracker</b> </p>
+			 		<p class="productColor"> BLACK </p>
+			 		<p class="productPrice"> $19.99 </p>		 		
+		 		</div>
+
+		 		<div class="product1" style="margin-top: 30px">
+			 		<img src="Images/Photo8.png" class="photo8">
+			 		<p class="productHeadline" id="txt8" style="margin-top: 25px;"> <b>Apple Watch Sport 38mm Silver Aluminum Case</b> </p>
+			 		<p class="productColor"> BLACK </p>
+			 		<p class="productPrice"> $49.99 </p>		 		
+		 		</div>
+
+		 		<div class="product1" style="margin-top: 30px; margin-left: 0;">
+			 		<img src="Images/Photo9.png" width="100%" class="img9">
+			 		<p class="productHeadline" id="txt9"> <b>Bose SoundLink On-Ear Headphones</b> </p>
+			 		<p class="productColor"> WHITE </p>
+			 		<p class="productPrice"> $119.99 </p>		 		
+		 		</div>
+
+		 		<div class="product1" style="margin-top: 30px;">
+			 		<img src="Images/Photo10.png" class="photo10">
+			 		<p class="productHeadline" id="txt10" style="margin-top: 15px;"> <b>Sonos Play-1 Wireless HiFi System</b> </p>
+			 		<p class="productColor"> BLACK </p>
+			 		<p class="productPrice"> $99.99 </p>		 		
+		 		</div>
+
+		 		<div class="product1" style="margin-top: 30px;">
+			 		<img src="Images/Photo11.png" width="100%" class="img11">
+			 		<p class="productHeadline" id="txt11" style="margin-top: 32px;" > <b>Fitbit Charge HR Heart Rate and Activity Tracker</b> </p>
+			 		<p class="productPrice" style="color: #605f5e;"> $49.99 </p>		 		
+		 		</div>
+			</div>
+
+		 	<div class="pageContainer">
+		 		<a href=""> <i class="pagePrev left"></i> </a> 
+		 		<div class="pageNumbersContainer"> 
+			 		<a href="" class="pageNumber">1</a>
+			 		<a href="" class="pageNumber">2</a>
+			 		<a href="" class="pageNumber">3</a>
+			 		<a href="" class="pageNumber">4</a>
+			 		<a href="" class="pageNumber">5</a>
+			 		<a href="" class="pageNumber">6</a>
+			 		<a href="" class="pageNumber">7</a>
+			 		<a href="" class="pageNumber">8</a>
+		 		</div>
+		 		<a href=""> <i class="pageNext right"></i> </a>
+		 	</div>
+
+		 	<div class="bestSellers">
+		 		<p class="bestSellersText"> BEST SELLERS </p>
+		 		<div class="horizontalLine2"></div>
+
+		 		<div class="bestProduct">
+			 		<img src="Images/Photo12.png" style="margin-left: 50px; margin-top: 45px;">
+			 		<p class="productHeadline2"> <b>BEANIE</b> </p>
+			 		<p class="productColor"> GREEN </p>
+			 		<p class="productPrice2"> $29.99 </p>
+			 		<p class="productPrice3"> $19.99 </p>	 		
+		 		</div>
+
+		 		<div class="verticalLine5"></div>	
+
+		 		<div class="bestProduct">
+			 		<img src="Images/Photo13.png" style="margin-left: 60px;">
+			 		<p class="productHeadline2" style="margin-top: -30px"> <b>T-Shirt With a Print</b> </p>
+			 		<p class="productColor"> BLACK </p>
+			 		<p class="productPrice2"> $29.99 </p>
+			 		<p class="productPrice3"> $19.99 </p>	 		
+		 		</div>
+
+		 		<div class="verticalLine5"></div>	
+
+		 		<div class="bestProduct">
+			 		<img src="Images/Photo14.png" style="margin-left: 60px; margin-top: 10px;">
+			 		<p class="productHeadline2" style="margin-top: -15px;"> <b>Pile-Lined Hooded Jacket</b> </p>
+			 		<p class="productColor"> BLACK </p>
+			 		<p class="productPrice2"> $29.99 </p>
+			 		<p class="productPrice3"> $19.99 </p>
+		 		</div>		 
+
+			 	<div class="verticalLine5"></div>	
+
+		 		<div class="bestProduct">
+			 		<img src="Images/Photo15.png" style="margin-left: 60px; margin-top: 20px;">
+			 		<p class="productHeadline2" style="margin-top: -73px"> <b>Trainers</b> </p>
+			 		<p class="productColor"> BLACK </p>
+			 		<p class="productPrice2"> $29.99 </p>
+			 		<p class="productPrice3"> $19.99 </p>
+		 		</div>
+		 		
+		 	</div>
+
+		</div>	 	
+	</main>
+
+	<footer>
+	 	<div class="customerReview">
+				<div class="customerReviewContent">
+					<p class="customerReviewHeadline">What Our Customers Have To Say</p>
+					<p class="customerReviewText">Couple of Words About This Stories Section</p>
+					<div class="story1">
+						<img src="Images/Story1.png" class="story1Photo">
+						<p class="nameText">Calia Fields</p> <br>
+						<p class="professionText">UX Expert</p>
+						<p class="storyText">This I have produced as a scantling <br> of Jack’s great eloquence and the <br> force of his reasoning upon such <br>abstruse matters.</p>
+					</div>
+					<div class="story2">
+						<img src="Images/Story2.png" class="story2Photo">
+						<p class="nameText">Alexander Lee</p> <br>
+						<p class="professionText">Founder</p>
+						<p class="storyText">Looking cautiously round, to ascertain <br> that they were not overheard, the two <br> hags cowered nearer to the fire, and <br> chuckled heartily.</p>
+						
+					</div>
+					<div class="story3">
+						<img src="Images/Story3.png" class="story3Photo">
+						<p class="nameText">Lenora Sandoval</p> <br>
+						<p class="professionText">Product Manager</p>
+						<p class="storyText">This sounded a very good reason, and <br> Alice was quite pleased to know it. 'I <br> never thought of that before!' <br>she said.</p>
+					</div>
+				</div>
+	 	</div>
+
+	 	<div class="footer">
+	 		<div class="footerContent">
+	 			<img src="Images/footerLogo.png" class="footerLogo">
+	 			<ul class="footerMenu">
+	 				<li>
+	 					<a href="">HOME</a>
+	 				</li>
+
+	 				<li>
+	 					<a href="">SHOP</a>
+	 				</li>
+
+	 				<li>
+	 					<a href="">TEAM</a>
+	 				</li>
+
+	 				<li>
+	 					<a href="">ABOUT US</a>
+	 				</li>
+
+	 				<li>
+	 					<a href="">CONTACTS</a>
+	 				</li>
+	 			</ul>
+
+	 			<div class="iconContainer">
+	 				<img src="Images/TwitterIcon.png" class="iconImage">
+	 				<img src="Images/FacebookIcon.png" class="iconImage">
+	 				<img src="G+Icon.png" class="iconImage">
+	 			</div>
+
+	 			<div class="horizontalLine3"></div>
+
+	 			<div class="footerTextContainer">
+	 				<p class="footerText">She gave my mother such a turn, that I have always been convinced I am indebted to Miss <br> Betsey for having been born on a Friday.</p>
+	 				<ul class="footerText2">
+	 					<li>
+	 						<a href="">PRIVACY POLICY</a>
+	 					</li>
+
+	 					<li>
+	 						<a href="">TERMS AND CONDITIONS</a>
+	 					</li>
+	 				</ul>
+	 			</div>
+	 		</div>
+	 	</div>
+	</footer>
+	
+
+	    <script src="JS/swiper.min.js"></script>
+
+	<!-- Slider -->
+	<script>
+		  var mySwiper = new Swiper ('.swiper-container', {
+		    // Optional parameters
+		    direction: 'horizontal',
+
+		    // If we need pagination
+		    pagination: {
+		      el: '.swiper-pagination',
+		    },
+
+		    // Navigation arrows
+		    navigation: {
+		      nextEl: '.swiper-button-next',
+		      prevEl: '.swiper-button-prev',
+		    },
+
+
+		  	})
+	</script>
+
+
+
+	<script type="text/javascript">
+  $( function() {
+    $( "#accordion" ).accordion({
+      active: false, 
+      collapsible: true
+
+    });
+  } );
+
+
+
+
+
+
+
+	</script>
+
+</body>
+</html>
