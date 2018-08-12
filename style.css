@@ -1,0 +1,1777 @@
+body{
+   margin: 0 auto;
+   padding: 0;
+/*   max-width: 1400px;*/
+   background-color: #e4e5e7;
+   font-family: Montserrat;
+}
+
+*{
+
+   font-family: Montserrat;
+   letter-spacing: 0.6px;
+}
+
+footer, header, main{
+  width: 100%;
+  position: relative;
+  color: black;
+  background-color: white;
+}
+
+main{
+	background-color: #e4e5e7;
+	height: 2330px;
+}
+
+.topnav{
+  position: relative;
+  width: 1170px;
+  margin: auto;
+  height: 100px;
+}
+
+.bar-icon{
+  margin-top: 37px;
+  float: left;
+}
+
+.verticalLine{
+  float: left;
+  margin-left: 40px;
+  border-left: 1.3px solid #f0f2f7;
+  height: 100px;
+}
+
+.mainLogo{
+  margin-left: 35px;
+  margin-top: 32px;
+  float: left;
+}
+
+.mainMenuContainer{
+  float: left;
+  margin: 0;
+  padding: 0;
+  margin-left: 140px;
+  margin-top: 5px;
+}
+
+.mainMenu{
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.mainMenu li{
+	letter-spacing: 0.6px;
+	font-weight: 600;
+	width: auto;
+	float: left;
+	color: #343e5c;
+	list-style-type: none;
+	font-size: 11px;
+	font-family: Montserrat, sans-serif;
+	margin-top: 32px;
+}
+
+.mainMenu li:not(:last-child){
+  margin-right: 30px;
+}
+
+.mainMenu li a{
+	text-decoration: none;
+	color: #343e5c;
+}
+
+.shoppingCart{
+  float: left;
+}
+
+.shoppingCartLogo{
+  float: left;
+  margin-top: 34px;
+  margin-left: 150px;
+}
+
+.shoppingCartText{
+  font-weight: 600;
+  font-family: Montserrat;
+  color: #343e5c;
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+  margin-top: 35px;
+  margin-left: 5px;
+  float: left;
+}
+
+.shoppingCartText2{
+  font-family: Montserrat;
+  color: #343e5c;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  margin-left: 5px;
+  float: left;
+}
+
+.shoppingCartCount{
+  float: left;
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+  margin-top: 32px;
+}
+
+.shoppingCartInput{  
+	float: left;
+	height: 20px;
+	width: 20px;
+	margin-left: 5px;
+	margin-top: 32px;
+  	font-family: Montserrat;
+	border: none;
+	width: 20px;
+	border-radius: 13px;
+ 	background-color: #e3e8f0;
+ 	text-align: center;
+}
+
+
+
+.signIn{
+	position: relative;
+    float: left;
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e3e8f0;
+    margin-left: 26px;
+    margin-top: 25px;
+}
+
+.signInButton{
+	height: 100%;
+	width: 100%;    
+	border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e3e8f0;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #343e5c;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    border: 0;
+    background-color: #fff;
+    outline:none
+}
+
+.signInButton:hover{
+	cursor: pointer;
+}
+
+.topnavSplitter{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 1.3px;
+  background-color: #f0f2f7;
+}
+
+.topnav2{
+  position: relative;
+  width: 1170px;
+  margin: auto;
+  height: 50px;
+
+}
+
+.menuContainer{
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.menu{
+  float: left;
+  padding: 0;
+  margin: 0;
+  margin-top: 3px;
+}
+
+.menu li{
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  width: auto;
+  float: left;
+  color: #b9bed1;
+  list-style-type: none;
+  font-size: 11px;
+  font-family: Montserrat;
+  margin-top: 15px;
+}
+
+.menu li a:hover{
+	color: #343e5c;
+}
+
+.menu li:not(:last-child){
+  margin-right: 30px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: #b9bed1;
+}
+
+#supportText{	
+  margin-left: 385px;
+}
+
+.verticalLine2{
+  float: left;
+  margin-left: 30px;
+  border-left: 1.3px solid #f0f2f7;
+  height: 50px;
+}
+
+
+.searchContainer{
+  float: left;
+  margin: 0;
+  padding: 0;
+  margin-top: 3px;
+}
+
+.searchIconLogo{
+    float: left;
+    margin-left: 20px;
+    margin-top: 13px;
+}
+
+.searchText{
+  width: auto;
+  float: left;
+  color: #b9bed1;
+  list-style-type: none;
+  font-size: 14px;
+  font-family: Montserrat;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.searchInput{
+  width: 115px;
+  float: left;
+  color: #b9bed1;
+  list-style-type: none;
+  font-size: 14px;
+  font-family: Montserrat;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: 0;
+  outline: none;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 500px;
+    background-color: #1c1e23;
+}
+
+.swiper-pagination-bullet-active{
+	background-color: white !important;
+}
+
+.sliderMainContainer{
+	width: 100%;
+	background-color: #1c1e23;
+}
+
+.sliderContainer{
+	width: 1170px;
+	margin: auto;
+}
+
+.sliderTextTitle{
+	position: absolute;
+	left: 200px; 
+	top: 50px;
+	font-size: 42px;
+	font-weight: 600;
+	color: white;
+	font-family: Montserrat, verdana;
+}
+
+.sliderText{
+	position: absolute;
+	font-size: 16px;	
+	left: 200px; 
+	top: 200px;
+	color: white;
+	font-family: Montserrat, verdana;
+}
+
+.buyNowButton{
+	position: absolute;
+	left: 200px;
+	top: 350px;
+	font-size: 11px;
+	color: white;
+	width: 170px;
+	height: 42px;
+	background-color: #2754eb;
+	border: 0;
+	border-radius: 20px;
+	outline:none;
+	font-family: Montserrat, verdana;
+	font-weight: 600;
+}
+
+.productFilter{
+	position: relative;
+    width: 1170px;
+    margin: auto;
+	height: 50px;
+	top: 50px;
+	background-color: white;
+	border-radius: 7px;
+}
+
+.productFilter ul{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.productFilter ul li{
+	float: left;	
+	letter-spacing: 0.6px;
+	font-weight: 600;
+	width: auto;
+	float: left;
+	color: #343e5c;
+	list-style-type: none;
+	font-size: 11px;
+	font-family: Montserrat, sans-serif;
+	margin-top: 20px;
+}
+
+.productFilter ul li a{
+	text-decoration: none;
+	color: #343e5c;
+}
+
+.productFilter ul li a i {
+  border: solid #a1a8bd;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+	margin-left: 10px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.verticalLine3{
+	float: left;
+  	margin-left: 20px;
+    border-left: 1.3px solid #f0f2f7;
+  	height: 50px;
+}
+
+.keywords{
+	float: left;
+	color: #a1a8bd;
+	font-size: 11px;
+	margin-left: 40px;
+	margin-top: 20px;
+	font-family: Montserrat, sans-serif;
+	font-weight: 600;
+}
+
+.keywordInputContainer{
+	margin: 0;
+	padding: 0;
+	float: left;
+	margin-left: 10px;
+	margin-top: 12px;
+	border-radius: 12px;
+	border: 0;
+	background-color: #e3e8f0;
+	width: 165px;
+	height: 27px;
+	outline: none;
+}
+
+.keywordInput{
+	margin: 0;
+	padding: 0;
+	float: left;
+	border-radius: 12px;
+	padding-left: 10px;
+	border: 0;
+	background-color: #e3e8f0;
+	width: 145px;
+	height: 27px;
+	outline: none;
+}
+
+
+
+.price{
+	float: left;
+	color: #a1a8bd;
+	font-size: 11px;
+	margin-left: 15px;
+	margin-top: 20px;	
+	font-family: Montserrat, sans-serif;
+	font-weight: 600;
+}
+
+.priceInputContainer{
+	float: left;
+	margin-left: 10px;
+	margin-top: 12px;
+	border-radius: 12px;
+	border: 0;
+	background-color: #e3e8f0;
+	width: 65px;
+	height: 27px;
+	outline: none;
+}
+
+.priceInput{
+	float: left;
+	border-radius: 12px;
+	border: 0;
+	background-color: #e3e8f0;
+	padding-left: 10px;
+	width: 55px;
+	height: 27px;
+	outline: none;
+	line-height: normal; 
+	text-align: left;
+}
+
+.minus{
+	float: left;
+	color: #a1a8bd;
+	font-size: 11px;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+.container {
+	float: left;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container input {
+    
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    border-radius:15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+}
+
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+    background-color: #00e2aa;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.container .checkmark:after {
+    left: 6px;
+    top: 4px;
+    width: 5px;
+    height: 7px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.freeShipping{
+	float: left;
+	margin-left: 25px;
+	margin-top: 18px;
+	color: #343e5c;
+	font-size: 11px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+
+.verticalLine4{
+	float: left;
+  	margin-left: 40px;
+    border-left: 1.3px solid #f0f2f7;
+  	height: 50px;
+}
+
+.mainContent{
+ 	position: relative;
+ 	width: 1170px;
+ 	margin: auto;
+ 	height: 2200px;
+ 	top: 80px;
+}
+
+.sideMenuContainer{
+	background-color: white;
+	border-radius: 7px;
+	width: 280px;
+	float: left;
+  min-height: 200px;
+	height: auto;
+
+}
+
+.sideMenu{
+	float: left;
+	width: 280px;
+	margin: 0;
+	padding: 0;
+}
+
+.sideMenu li{
+	letter-spacing: 0.6px;
+	font-weight: 600;
+	width: 280px;
+	min-height: 40px;
+  height: auto;
+	color: #343e5c;
+	list-style-type: none;
+	font-size: 13px;
+	font-family: Montserrat, sans-serif;
+	border-bottom: 1px solid #e4e5e7;
+}
+
+.sideMenu li:hover{
+	cursor: pointer;
+}
+
+.sideMenu li a{
+	position: relative;
+	margin-left: 30px;
+	text-decoration: none;
+	color: #343e5c;
+	top: 10px;
+}
+
+.collapseAccordion{
+  padding: 12px 0;
+  padding-right: 165px;
+  outline: none;
+}
+
+.sideMenu li a i{
+	border: solid #a1a8bd;
+  	border-width: 0 3px 3px 0;
+  	display: inline-block;
+  	padding: 3px;
+  	float: right;
+  	margin-right: 15px;
+  	margin-top: 15px;
+}
+
+.subMenu{
+	margin-left: 0;
+	padding-left: 0;
+	display: none;
+  	background: #f0f2f7;
+  	font-size: 14px;
+  	margin-top: 20px;
+}
+
+.subMenu li { border-bottom: 1px solid #e4e5e7;}
+
+.subMenu a {
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	text-decoration: none;
+	color: #d9d9d9;
+	-webkit-transition: all 0.25s ease;
+	-o-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+}
+
+.subMenu a:hover {
+  background: #f0f2f7;
+  color: #abb1c4;
+}
+
+.col1{
+  float: left;
+}
+
+.col2{
+  float: right;
+  width: 850px;
+}
+
+
+
+.product1{
+	float: left;
+	height: 385px;
+	width: 265px;
+	background-color: white;
+	border-radius: 7px;
+}
+
+.product1:not(:first-child){
+  margin-left: 27px;
+}
+
+.product1 p{
+	font-family: 'Montserrat', regular;
+	font-weight: 600;
+	text-align: center;
+}
+
+.productHeadline{
+	color: #1c1e23; 
+	font-size: 16px;
+}
+
+.productColor{
+	font-size: 12px;
+	opacity: 0.5;
+}
+
+.productPrice{
+	font-family: 'Montserrat', regular;
+	font-weight: 600;
+	color: #343e5c;
+	font-size: 14px;
+
+}
+
+.product1:hover .img1{
+  margin-top: 140px;
+}
+
+.product1:hover #txt1{
+  margin-top: -330px !important;
+}
+
+.product1:hover .img2{
+  margin-top: 140px;
+}
+
+.product1:hover #txt2{
+  margin-top: -330px !important;
+}
+
+.product1:hover .img3{
+  margin-top: 140px;
+}
+
+.product1:hover #txt3{
+  margin-top: -330px !important;
+}
+
+/*did konteinerze hover gasaketebelia*/
+
+.product1:hover .img6{
+  margin-top: 140px;
+}
+
+.product1:hover #txt6{
+  margin-top: -330px !important;
+}
+
+.product1:hover .img7{
+  margin-top: 140px;
+}
+
+.product1:hover #txt7{
+  margin-top: -330px !important;
+}
+
+.product1:hover .photo8{
+  margin-top: 165px;
+}
+
+.product1:hover #txt8{
+  margin-top: -330px !important;
+}
+
+.product1:hover .img9{
+  margin-top: 140px;
+}
+
+.product1:hover #txt9{
+  margin-top: -330px !important;
+}
+
+
+.product1:hover .photo10{
+  margin-top: 160px !important;
+}
+
+.product1:hover #txt10{
+  margin-top: -330px !important;
+}
+
+.product1:hover .img11{
+  margin-top: 170px;
+}
+
+.product1:hover #txt11{
+  margin-top: -350px !important;
+}
+
+
+.avialableFilter{
+  clear: left;
+	float: left;
+	height: 340px;
+	width: 280px;
+	background-color: white;
+  margin-top: 30px;
+	border-radius: 7px;
+}
+
+.avialableText{
+	margin-top: 13px;
+	float: left;
+	margin-left: 30px;
+	font-family: 'Montserrat', regular;
+	font-weight: 600;
+	font-size: 11px;
+	color: #343e5c;
+}
+
+.horizontalLine{
+	border-bottom: 0.5px solid #e4e5e7;
+	height: 1px;
+	margin-top: 40px;
+}
+
+.container2 {
+	float: left;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 13pt;
+    font-family: 'Montserrat';
+}
+
+/* Hide the browser's default radio button */
+.container2 input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom radio button */
+.checkmark2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    border: 1px solid #e4e8f0;
+}
+
+/* On mouse-over, add a grey background color */
+.container2:hover input ~ .checkmark2 {
+    background-color: #00deea;
+}
+
+/* When the radio button is checked, add a blue background */
+.container2 input:checked ~ .checkmark2 {
+    background-color: white;
+}
+
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark2:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container2 input:checked ~ .checkmark2:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container2 .checkmark2:after {
+ 	top: 6px;
+	left: 6px;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	background: #00deea;
+}
+
+.inStorage{
+	font-family: 'Montserrat', regular;
+	font-weight: 600;
+	font-size: 13px;
+	float: left;
+	margin-top: 22px;
+	margin-left: 40px;
+	color: #343e5c;
+}
+
+.container3 {
+	clear: left;
+	float: left;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 13pt;
+    font-family: 'Montserrat';
+}
+
+/* Hide the browser's default radio button */
+.container3 input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom radio button */
+.checkmark3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    border: 1px solid #e4e8f0;
+}
+
+.container3:hover input ~ .checkmark3 {
+    background-color: #00deea;
+}
+
+/* When the radio button is checked, add a blue background */
+.container3 input:checked ~ .checkmark3 {
+    background-color: white;
+}
+
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark3:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container3 input:checked ~ .checkmark3:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container3 .checkmark3:after {
+ 	top: 6px;
+	left: 6px;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	background: #00deea;
+}
+
+.inOnlineShop{
+	font-family: 'Montserrat', regular;
+	font-weight: 600;
+	font-size: 13px;
+	float: left;
+	margin-top: 22px;
+	margin-left: 40px;
+	color: #343e5c;
+}
+
+.productCount{
+	font-family: 'Montserrat', regular;
+	font-weight: 600;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+	float: right;
+	margin-right: 10px;
+	margin-top: 22px;
+	color: #343e5c;
+	opacity: 0.5;
+}
+
+.brandText{
+	margin-top: 13px;
+	float: left;
+	margin-left: 30px;
+	font-family: 'Montserrat', regular;
+	font-weight: 600;
+	font-size: 11px;
+	color: #343e5c;
+}
+
+.everyBrand{
+	font-size: 11px;
+	font-family: 'Montserrat', regular;
+	color: #343e5c;	
+}
+
+.everyBrand a{
+	margin: 0;
+	padding: 0;
+	color: #2754eb;
+	float: right;
+	margin-right: 10px; 
+}
+
+
+
+.brandNames{
+	margin-left: 30px;
+	font-family: 'Montserrat', regular;
+	font-weight: 600;
+}
+
+.container4 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 12pt;
+    margin-top: 14px;
+}
+
+
+.container4 input {
+    position: absolute;
+    opacity: 0;
+    display: none;
+    cursor: pointer;
+}
+
+
+.checkmark4 {
+    border-radius: 7px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border:1px solid #e4e8f0;
+}
+
+.container4:hover input ~ .checkmark4 {
+    background-color: #00e2aa;
+}
+
+.container4 input:checked ~ .checkmark4 {
+    background-color: #00e2aa;
+}
+
+
+.checkmark4:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+.container4 input:checked ~ .checkmark4:after {
+    display: block;
+}
+
+
+.container4 .checkmark4:after {
+    left: 7px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.brandName{
+	float: left;
+	font-family: 'Montserrat', sans-serif; 
+	font-weight: 600;
+	font-size: 13px;
+	color: #343e5c;
+	margin-left: 40px;
+	margin-top: 2px;
+}
+
+.brandCount{
+	font-family: 'Montserrat', regular;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+	float: right;
+	margin-right: 10px;
+	color: #343e5c;
+	opacity: 0.5;
+}
+
+.conditionFilter{
+	clear: left;	
+	float: left;
+	height: 250px;
+	width: 280px;
+	background-color: white;
+	margin-top: 30px;
+	border-radius: 7px;
+}
+
+.conditionNames{
+	margin-left: 30px;
+}
+
+.deliveryOptions{
+	clear: left;	
+	float: left;
+	height: 100px;
+	width: 280px;
+	background-color: white;
+	margin-top: 30px;
+	border-radius: 7px;
+}
+
+.container5 {
+	float: left;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 13pt;
+    font-family: 'Montserrat';
+}
+
+/* Hide the browser's default radio button */
+.container5 input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom radio button */
+.checkmark5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    border: 1px solid #e4e8f0;
+}
+
+/* On mouse-over, add a grey background color */
+.container5:hover input ~ .checkmark5 {
+    background-color: #00deea;
+}
+
+/* When the radio button is checked, add a blue background */
+.container5 input:checked ~ .checkmark5 {
+    background-color: white;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark5:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container5 input:checked ~ .checkmark5:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container5 .checkmark5:after {
+ 	top: 6px;
+	left: 6px;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	background: #00deea;
+}
+
+.freeDelivery{
+	font-family: 'Montserrat', regular;
+	font-weight: 600;
+	font-size: 13px;
+	float: left;
+	margin-top: 22px;
+	margin-left: 40px;
+	color: #343e5c;
+}
+
+.container6 {
+	float: left;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 13pt;
+    font-family: 'Montserrat';
+}
+
+/* Hide the browser's default radio button */
+.container6 input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom radio button */
+.checkmark6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    border: 1px solid #e4e8f0;
+}
+
+
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark6:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* On mouse-over, add a grey background color */
+.container6:hover input ~ .checkmark6 {
+    background-color: #00deea;
+}
+
+/* When the radio button is checked, add a blue background */
+.container6 input:checked ~ .checkmark6 {
+    background-color: white;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container6 input:checked ~ .checkmark6:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container6 .checkmark6:after {
+ 	top: 6px;
+	left: 6px;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	background: #00deea;
+}
+
+.fiveBuckDelivery{
+	font-family: 'Montserrat', regular;
+	font-weight: 600;
+	font-size: 13px;
+	float: left;
+	margin-top: 22px;
+	margin-left: 40px;
+	color: #343e5c;
+}
+
+
+.product2{
+	float: left;
+  margin-top: 30px;
+	height: 385px;
+	width: 265px;
+	background-color: white;
+	border-radius: 7px;
+}
+
+
+
+.product2:hover .photo4{
+  margin-top:200px;
+}
+
+.product2:hover .productHeadline{
+  margin-top: -300px !important;
+}
+
+.photo4{
+	margin-left: 30px;
+	margin-top: 80px;
+}
+
+
+.product2 p{
+	font-family: 'Montserrat', regular;
+	font-weight: 600;
+	text-align: center;
+}
+
+.productHeadline{
+	color: #1c1e23; 
+	font-size: 16px;
+}
+
+.productColor{
+	font-size: 12px;
+	opacity: 0.5;
+}
+
+.productPrice{
+	color: #343e5c;
+}
+
+.product3{
+  margin-top: 30px;
+	float: right;
+	height: 385px;
+	width: 560px;
+	background-color: white;
+	border-radius: 7px;
+}
+
+.product3:hover .photo5{
+    margin-top: 85px !important;
+}
+
+.product3:hover .photo5Price{
+    top:515px !important;
+}
+
+.product3:hover .txtContainer{
+    margin-top: -380px !important;
+}
+
+
+
+
+.photo5{
+	width: 100%;
+}
+
+.photo5Price{
+	padding: 0;
+	margin: 0;
+	color: #343e5c;
+	position: absolute;
+	top: 430px;
+	left: 625px;
+	float: left;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	width: 65px;
+	height: 25px;
+	text-align: center;
+	font-family: 'Montserrat', regular;
+	font-weight: 600;
+
+}
+
+.photo5Headline{
+	font-family: 'Montserrat', regular;
+	font-weight: 600;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	color: #1c1e23; 
+	font-size: 16px;
+	margin-left: 30px;
+	float: left;
+}
+
+.photo5Color{
+	font-family: 'Montserrat', regular;
+	font-weight: 600;
+	clear: left;
+	font-size: 12px;
+	opacity: 0.5;
+	margin-left: 30px;
+	width: auto;
+	float: left;
+}
+
+.buyNowContainer{
+	margin-top: -15px;
+	width: 230px;
+	background-color: white;
+	float: right;
+	height: 30px;
+	border: 1px solid #e4e8f0;
+	border-radius: 7px;
+	margin-right: 20px;
+}
+
+.capacityCount{
+	font-family: 'Montserrat', regular;
+	float: left;
+	margin-top: 8px;
+	margin-left: 30px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.buyNow{	
+	font-family: 'Montserrat', regular;
+	float: right;
+	margin-top: 8px;
+	margin-right: 30px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.buyNow a{
+	text-decoration: none;
+	color: #1c1e23;
+}
+
+.photo8{
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.photo10{
+	margin-left: 30px;
+	margin-top: 40px;
+}
+
+.pageContainer{
+	float: left;
+	width: 1170px;
+	height: 90px;
+	border-radius: 7px;
+	background-color: white;
+	margin-top: 30px;
+}
+
+.pagePrev{
+	float: left;
+	margin-left: 100px;
+  	border: solid black;
+ 	border-width: 0 3px 3px 0;
+  	display: inline-block;
+  	padding: 3px;
+  	margin-top: 44px;
+}
+
+.pageNext{
+	float: right;
+	margin-right: 100px;
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+ 	margin-top: 44px;
+
+}
+
+.pageNumbersContainer{
+	font-family: 'Montserrat', regular;
+	font-weight: 600;
+	font-size: 14px;
+	float: left;
+	width: 550px;
+	margin-top: 40px;
+	margin-left: 215px;
+}
+
+.pageNumbersContainer a:not(:first-child){
+	margin-left: 10px;
+}
+
+.pageNumber{
+	padding: 15px 20px;
+	border-radius: 50%;
+	border: 1px solid #0000000d;
+	font-family: 'Montserrat', regular;
+	text-decoration: none;
+	color: black;
+}
+
+.pageNumber:hover{
+	box-shadow: 0 0 25px 0 silver;
+}
+
+.bestSellers{
+	height: 400px;
+	width: 1170px;
+	background-color: white;
+	float: left;
+	margin-top: 50px;
+	border-radius: 7px;
+}
+
+.bestSellersText{
+	position: relative;
+	padding: 0;
+	margin: 0;
+	top:20px;
+	text-align: center;
+	font-family: 'Montserrat', regular;
+	font-weight: 600;
+	font-size: 11px;
+	height: 50px;
+
+}
+
+.horizontalLine2{	
+	border-bottom: 0.5px solid #e4e5e7;
+	height: 1px;
+}
+
+.bestProduct{
+	float: left;
+	height: 325px;
+	width: 290px;
+	background-color: white;
+	border-radius: 7px;
+}
+
+.bestProduct p{
+	font-family: 'Montserrat', regular;
+	font-weight: 600;
+	text-align: center;
+}
+
+.productHeadline2{
+	color: #1c1e23; 
+	font-size: 16px;
+	margin-top: 0;
+}
+
+.productColor{
+	font-size: 11px;
+	opacity: 0.5;
+}
+
+.productPrice3{
+	font-size: 14px;
+	float: right;
+	color: #343e5c;
+	margin-right: 80px;
+	margin-top: 5px;
+}
+
+.productPrice2{
+	opacity: 0.5;
+	font-size: 14px;
+	margin-left: 80px;
+	margin-top: 5px;
+	text-decoration: line-through;
+	float: left;
+	color: #343e5c;
+}
+
+.verticalLine5{  
+	float: left;
+  	border-left: 1px solid #e4e5e7;
+  	height: 400px;
+}
+
+.customerReview{
+	position: relative;
+	margin-top: 50px;
+	width: 100%;
+	height: 430px;
+	background-color: white;
+
+}
+
+.customerReviewContent{
+	width: 1170px;
+	margin: auto;
+	height: 100%;
+	background-color: white;
+	position: relative;
+
+}
+
+.customerReviewHeadline{
+	position: relative;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-weight: 600;
+	top: 70px;
+	font-size: 32px;
+	font-family: Montserrat, sans-serif;
+}
+
+.customerReviewText{
+	position: relative;
+	padding: 0;
+	margin: 0;
+	top: 85px;
+	text-align: center;
+	font-size: 16px;
+	color: #b9bed1;
+	font-style: italic;
+	font-weight: 600;
+	font-family: 'Crimson Text', serif;
+}
+
+.story1{
+	float: left;
+	margin-left: 100px;
+	margin-top: 180px;
+}
+
+.story2{
+	float: left;
+	margin-left: 90px;
+	margin-top: 180px;
+}
+
+.story3{
+	float: left;
+	margin-left: 90px;
+	margin-top: 180px;
+}
+
+.story1Photo{
+	float: left;
+}
+
+.story2Photo{
+	float: left;
+}
+
+.story3Photo{
+	float: left;
+}
+
+.nameText{
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: 20px;
+	font-size: 14px;
+	font-family: Montserrat, sans-serif;
+	font-weight: 600;
+}
+
+.professionText{
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: 20px;
+	margin-top: 5px;
+	font-size: 14px;
+	color: #b9bed1;
+	font-style: italic;
+	font-family: Montserrat, sans-serif;
+}
+
+.storyText{
+	padding: 0;
+	margin: 0;
+	clear: left;
+	color: #3a405b;
+	font-family: 'Crimson Text', serif;
+	font-weight: 600;
+	font-size: 16px;
+	margin-top: 45px;
+}
+
+.footer{
+	position: relative;
+	height: 300px;
+	width: 100%;
+	background-color: #222328;
+}
+
+.footerContent{
+	position: relative;
+	margin: auto;
+	height: 100%;
+	width: 1170px;
+	background-color: #222328;
+}
+
+.footerLogo{
+	float: left;
+	margin-top: 60px;
+}
+
+.footerMenu{
+	padding: 0;
+	float: left;
+	margin-left: 300px;
+	margin-top: 60px;
+}
+
+.footerMenu li{
+	float: left;
+	list-style: none;
+	font-size: 12px;
+	font-family: Montserrat, sans-serif;
+	font-weight: 600;
+}
+
+.footerMenu li:not(:first-child){
+	margin-left: 30px;
+}
+
+.footerMenu li a{
+	text-decoration: none;
+	color: white;
+}
+
+.iconContainer{
+	float: right;
+	margin-top: 60px;
+}
+
+.iconContainer img:not(:last-child){
+	margin-right: 20px;
+}
+
+.horizontalLine3{	
+	position: relative;
+	opacity: 0.5;
+	border-bottom: 0.5px solid #e4e5e7;
+	height: 1px;
+	top: 150px;
+}
+
+.footerText{
+	margin: 0;
+	padding: 0;
+	margin-top: 120px;
+	float: left;
+	color: white;
+	opacity: 0.5;
+	font-size: 14px;
+	font-family: 'Crimson Text', serif;
+	font-style: italic;
+	font-weight: 600;
+}
+
+.footerText2{
+	margin: 0;
+	padding: 0;
+	margin-top: 125px;
+	float: right;
+}
+
+.footerText2 li{
+	float: left;
+	list-style: none;	
+	color: white;
+	opacity: 0.5;
+	font-size: 11px;
+	font-family: 'Montserrat', serif;
+	font-weight: 600;
+}
+
+.footerText2 li:not(:last-child){
+	margin-right: 30px;
+}
+
+.footerText2 li a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
